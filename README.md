@@ -1,2 +1,2 @@
-# helm-of-insurection
+# helm-of-revolution
 Helm Charts repository
