@@ -14,6 +14,18 @@ entries:
     - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-v4.0.0-rc9.tgz
     version: v4.0.0-rc9
   - apiVersion: v2
+    appVersion: v4.0.0-rc12
+    created: "2022-04-07T20:17:23.367916462Z"
+    description: Backup storage for E2E GPG-encrypted files, with multi-user, quotas,
+      versioning, using a object storage (S3/Min.io/GCS etc.) and deployed on Kubernetes
+      or standalone.
+    digest: 5db324fff86ac265f1ef6471698dc311449ad5eb40cdf61a1bcf9a48f75a03cb
+    name: backup-repository-server
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-v4.0.0-rc12.tgz
+    version: v4.0.0-rc12
+  - apiVersion: v2
     appVersion: v4.0.0-rc11
     created: "2022-04-06T07:21:43.849824037Z"
     description: Backup storage for E2E GPG-encrypted files, with multi-user, quotas,
@@ -49,4 +61,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-06T07:21:43.848057526Z"
+generated: "2022-04-07T20:17:23.366819463Z"
