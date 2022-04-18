@@ -31,3 +31,4 @@ You may want to take a look at the [index.yaml](https://riotkit-org.github.io/he
 - https://github.com/riotkit-org/flarum-container
 - https://github.com/riotkit-org/infracheck
 - https://github.com/riotkit-org/smtp-ext-relay
+- https://github.com/riotkit-org/git-clone-operator
