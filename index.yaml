@@ -73,4 +73,17 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-09T07:42:14.994705806Z"
+  git-clone-operator:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-04-18T07:09:20.116042828Z"
+    description: Simple Pod provisioner using GIT as source. Just label your Pods
+      to get an additional initContainer that will clone your repo before Pod will
+      start up.
+    digest: 8ad8bdd4012734a471f135cab7a24ac307b63c294b0470b92ed11f65e188f20e
+    name: git-clone-operator
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/git-clone-operator-v0.0.1.tgz
+    version: v0.0.1
+generated: "2022-04-18T07:09:20.115300919Z"
