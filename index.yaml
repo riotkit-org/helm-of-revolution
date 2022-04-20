@@ -98,4 +98,15 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/git-clone-operator-v0.0.1.tgz
     version: v0.0.1
-generated: "2022-04-18T09:01:39.939676146Z"
+  sni-router:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-04-20T18:06:20.283155493Z"
+    description: Simple TLS-SNI based router using Traefik and NGINX
+    digest: 77efdded27681bf0e533e8b95c19fe4960f15b5298d45ea154712633a488fa2d
+    name: sni-router
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.0.tgz
+    version: v1.0.0
+generated: "2022-04-20T18:06:20.282408294Z"
