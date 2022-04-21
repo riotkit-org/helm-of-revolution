@@ -112,6 +112,16 @@ entries:
     version: v0.0.1
   sni-router:
   - apiVersion: v2
+    appVersion: v1.0.5
+    created: "2022-04-21T20:12:49.012283194Z"
+    description: Simple TLS-SNI based router using Traefik and NGINX
+    digest: 023b16b7edee39f5a7f5437de650e8378304efaad050b104f129f317083a2038
+    name: sni-router
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.5.tgz
+    version: v1.0.5
+  - apiVersion: v2
     appVersion: v1.0.4
     created: "2022-04-20T19:25:36.22659825Z"
     description: Simple TLS-SNI based router using Traefik and NGINX
@@ -161,4 +171,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-04-21T05:26:31.615441549Z"
+generated: "2022-04-21T20:12:49.011720106Z"
