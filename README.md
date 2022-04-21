@@ -2,6 +2,8 @@
 
 Artifactory for FOSS software created by Riotkit, a grassroot libertarian tech collective.
 
+https://artifacthub.io/packages/search?repo=riotkit-org&sort=relevance&page=1
+
 Usage
 -----
 
@@ -23,7 +25,7 @@ repositories:
 Projects catalog
 ----------------
 
-You may want to take a look at the [index.yaml](https://riotkit-org.github.io/helm-of-revolution/index.yaml), or import the repository from shell and perform `helm search repo riotkit`
+You may want to take a look at the [artifacthub.io](https://artifacthub.io/packages/search?repo=riotkit-org&sort=relevance&page=1), or import the repository from shell and perform `helm search repo riotkit`
 
 - https://github.com/riotkit-org/backup-repository
 - https://github.com/riotkit-org/br-backup-controller
