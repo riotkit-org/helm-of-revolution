@@ -75,6 +75,18 @@ entries:
     version: 0.0.1
   git-clone-operator:
   - apiVersion: v2
+    appVersion: v1.0.2
+    created: "2022-04-21T05:26:31.616575957Z"
+    description: Simple Pod provisioner using GIT as source. Just label your Pods
+      to get an additional initContainer that will clone your repo before Pod will
+      start up.
+    digest: e5c454b06a668c407be63c0117a318ca983493afcdfa58af0fed4cae71f4a03b
+    name: git-clone-operator
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/git-clone-operator-v1.0.2.tgz
+    version: v1.0.2
+  - apiVersion: v2
     appVersion: v1.0.0
     created: "2022-04-18T09:01:39.940423689Z"
     description: Simple Pod provisioner using GIT as source. Just label your Pods
@@ -149,4 +161,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-04-20T19:25:36.225477945Z"
+generated: "2022-04-21T05:26:31.615441549Z"
