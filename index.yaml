@@ -110,6 +110,18 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/git-clone-operator-v0.0.1.tgz
     version: v0.0.1
+  smtp-ext-relay:
+  - apiVersion: v2
+    appVersion: v1.2.0-rc1
+    created: "2022-04-28T06:48:50.472003513Z"
+    description: Simple SMTP server with support for forwarding e-mails using different
+      relays depending on recipient domain
+    digest: 33df2a3ed617e7da21b444cc1a71ec8715bab91efe5bdd6bc6e47b659daa3f7f
+    name: smtp-ext-relay
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/smtp-ext-relay-v1.2.0-rc1.tgz
+    version: v1.2.0-rc1
   sni-router:
   - apiVersion: v2
     appVersion: v1.0.5
@@ -171,4 +183,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-04-21T20:12:49.011720106Z"
+generated: "2022-04-28T06:48:50.469852294Z"
