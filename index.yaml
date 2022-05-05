@@ -112,6 +112,17 @@ entries:
     version: v0.0.1
   smtp-ext-relay:
   - apiVersion: v2
+    appVersion: v1.2.0-rc2
+    created: "2022-05-05T18:46:32.683360279Z"
+    description: Simple SMTP server with support for forwarding e-mails using different
+      relays depending on recipient domain
+    digest: 33ad37670d8af305f13003a1343c9cd2dbec5205f3143e136eada0e7c6a899af
+    name: smtp-ext-relay
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/smtp-ext-relay-v1.2.0-rc2.tgz
+    version: v1.2.0-rc2
+  - apiVersion: v2
     appVersion: v1.2.0-rc1
     created: "2022-04-28T06:48:50.472003513Z"
     description: Simple SMTP server with support for forwarding e-mails using different
@@ -193,4 +204,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-05-03T18:01:28.490790173Z"
+generated: "2022-05-05T18:46:32.68225407Z"
