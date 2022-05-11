@@ -204,4 +204,15 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-05-05T18:46:32.68225407Z"
+  wordpress-hardened:
+  - apiVersion: v2
+    appVersion: v2.0-rc1
+    created: "2022-05-11T19:32:58.850196835Z"
+    description: Lightweight Wordpress installation with additional security fixes
+    digest: b9a151494a18e59d9a5749aba2a37831e6a1cbb8aaad5dac1b8a80b7c92abe25
+    name: wordpress-hardened
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0-rc1.tgz
+    version: v2.0-rc1
+generated: "2022-05-11T19:32:58.84868832Z"
