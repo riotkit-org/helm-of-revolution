@@ -34,3 +34,4 @@ You may want to take a look at the [artifacthub.io](https://artifacthub.io/packa
 - https://github.com/riotkit-org/infracheck
 - https://github.com/riotkit-org/smtp-ext-relay
 - https://github.com/riotkit-org/git-clone-operator
+- https://github.com/riotkit-org/wordpress-hardened
