@@ -14,6 +14,18 @@ entries:
     - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-v4.0.0-rc9.tgz
     version: v4.0.0-rc9
   - apiVersion: v2
+    appVersion: v4.0.0-rc17
+    created: "2022-05-25T20:49:27.006981771Z"
+    description: Backup storage for E2E GPG-encrypted files, with multi-user, quotas,
+      versioning, using a object storage (S3/Min.io/GCS etc.) and deployed on Kubernetes
+      or standalone.
+    digest: fe8cff3d4306baee03ccce58f346b8eecde0a9b2adf6e3fc9cb47d11f3e233ad
+    name: backup-repository-server
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-v4.0.0-rc17.tgz
+    version: v4.0.0-rc17
+  - apiVersion: v2
     appVersion: v4.0.0-rc16
     created: "2022-05-17T05:29:02.667103989Z"
     description: Backup storage for E2E GPG-encrypted files, with multi-user, quotas,
@@ -251,14 +263,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0-rc9.tgz
     version: v2.0-rc9
-  - apiVersion: v2
-    appVersion: v2.0-rc10
-    created: "2022-05-22T20:42:46.450045496Z"
-    description: Lightweight Wordpress installation with additional security fixes
-    digest: 1b684ef650b9b18537ca0aa7d220f587cec0d6cb0e0b93247b2fe835c6a7aae5
-    name: wordpress-hardened
-    type: application
-    urls:
-    - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0-rc10.tgz
-    version: v2.0-rc10
-generated: "2022-05-22T20:42:46.448594702Z"
+generated: "2022-05-25T20:49:27.005360172Z"
