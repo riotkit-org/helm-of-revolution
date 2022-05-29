@@ -123,6 +123,18 @@ entries:
     version: 0.0.1
   git-clone-operator:
   - apiVersion: v2
+    appVersion: v1.0.3
+    created: "2022-05-29T12:43:18.172504508Z"
+    description: Simple Pod provisioner using GIT as source. Just label your Pods
+      to get an additional initContainer that will clone your repo before Pod will
+      start up.
+    digest: 6feb46dbe01f6ccd0ec1fe047a4eb9b309a2da3d7edf36f32ebd7cc485b084ec
+    name: git-clone-operator
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/git-clone-operator-v1.0.3.tgz
+    version: v1.0.3
+  - apiVersion: v2
     appVersion: v1.0.2
     created: "2022-04-21T05:26:31.616575957Z"
     description: Simple Pod provisioner using GIT as source. Just label your Pods
@@ -263,4 +275,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0-rc9.tgz
     version: v2.0-rc9
-generated: "2022-05-25T20:49:27.005360172Z"
+generated: "2022-05-29T12:43:18.171752893Z"
