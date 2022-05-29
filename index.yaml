@@ -266,13 +266,13 @@ entries:
     version: v1.0.0
   wordpress-hardened:
   - apiVersion: v2
-    appVersion: v2.0-rc9
-    created: "2022-05-19T07:29:35.035217725Z"
+    appVersion: v2.0
+    created: "2022-05-29T12:48:02.924085051Z"
     description: Lightweight Wordpress installation with additional security fixes
-    digest: 9d2a5a6c4a360a6db08750864d7a33dfca7cda3d9e15d892e85190c69cb0a267
+    digest: b1b851d765d689c5b90a9b6ef0a6d820e1007ce7405f82348f2be2b6152ca5a1
     name: wordpress-hardened
     type: application
     urls:
-    - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0-rc9.tgz
-    version: v2.0-rc9
-generated: "2022-05-29T12:43:18.171752893Z"
+    - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0.tgz
+    version: v2.0
+generated: "2022-05-29T12:48:02.922550434Z"
