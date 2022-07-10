@@ -276,6 +276,18 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/sni-router-v1.0.0.tgz
     version: v1.0.0
+  volume-syncing-controller:
+  - apiVersion: v2
+    appVersion: v1.0.0-rc1
+    created: "2022-07-10T22:15:16.255409194Z"
+    description: Operator for periodically synchronizing volumes to cloud-native storage,
+      and restoring their state from cloud-native storage.
+    digest: 2abce5d5e87679676693fae88ee1bf49729e2dd197a031a4359700b86bc336b5
+    name: volume-syncing-controller
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/volume-syncing-controller-v1.0.0-rc1.tgz
+    version: v1.0.0-rc1
   wordpress-hardened:
   - apiVersion: v2
     appVersion: v2.1-alpha4
@@ -297,4 +309,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0.tgz
     version: v2.0
-generated: "2022-06-24T18:06:41.364645365Z"
+generated: "2022-07-10T22:15:16.254780497Z"
