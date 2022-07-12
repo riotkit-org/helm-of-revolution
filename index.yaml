@@ -278,6 +278,17 @@ entries:
     version: v1.0.0
   volume-syncing-controller:
   - apiVersion: v2
+    appVersion: v1.0.0-rc4
+    created: "2022-07-12T06:42:36.867615645Z"
+    description: Controller that injects rclone into Pods that are going to be created.
+      Allows to synchronize service periodically, and restore on Pod creation
+    digest: 891b37fb188e0ef6342423a8ba17b2952134f83b8ef61063b6e8d3ddcbf55e1f
+    name: volume-syncing-controller
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/volume-syncing-controller-v1.0.0-rc4.tgz
+    version: v1.0.0-rc4
+  - apiVersion: v2
     appVersion: v1.0.0-rc3
     created: "2022-07-11T19:48:00.558552568Z"
     description: Controller that injects rclone into Pods that are going to be created.
@@ -331,4 +342,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0.tgz
     version: v2.0
-generated: "2022-07-11T19:48:00.557755958Z"
+generated: "2022-07-12T06:42:36.86595506Z"
