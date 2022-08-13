@@ -121,6 +121,19 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-0.0.1.tgz
     version: 0.0.1
+  git-clone-controller:
+  - apiVersion: v2
+    appVersion: v1.1-alpha5
+    created: "2022-08-13T14:42:28.919772723Z"
+    description: Simple Pod provisioner using GIT as source. Just label your Pods
+      to get an additional initContainer that will clone your repo before Pod will
+      start up.
+    digest: 0e2756ca2f850a7b1d9b9e2ec2a68e3263af3700cf67090f639f83fd31c47c6c
+    name: git-clone-controller
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/git-clone-controller-v1.1-alpha5.tgz
+    version: v1.1-alpha5
   git-clone-operator:
   - apiVersion: v2
     appVersion: v1.1-alpha3
@@ -353,4 +366,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0.tgz
     version: v2.0
-generated: "2022-07-12T07:32:12.737270975Z"
+generated: "2022-08-13T14:42:28.918400014Z"
