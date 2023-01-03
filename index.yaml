@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   backup-repository-server:
   - apiVersion: v2
+    appVersion: v4.0.0
+    created: "2023-01-03T12:16:14.322802801Z"
+    description: Backup storage for E2E GPG-encrypted files, with multi-user, quotas,
+      versioning, using a object storage (S3/Min.io/GCS etc.) and deployed on Kubernetes
+      or standalone.
+    digest: 9c62ae5949a131308b89df4aaa12033c3387d75a603f2e5fbc601a995b3927ef
+    name: backup-repository-server
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/backup-repository-server-v4.0.0.tgz
+    version: v4.0.0
+  - apiVersion: v2
     appVersion: v4.0.0-rc9
     created: "2022-03-16T07:40:36.812607902Z"
     description: Backup storage for E2E GPG-encrypted files, with multi-user, quotas,
@@ -388,4 +400,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0.tgz
     version: v2.0
-generated: "2022-11-27T08:31:56.994757861Z"
+generated: "2023-01-03T12:16:14.319301171Z"
