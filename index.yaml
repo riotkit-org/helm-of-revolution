@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   backup-maker-controller:
   - apiVersion: v2
+    appVersion: v0.1.2
+    created: "2023-01-07T22:00:06.914997798Z"
+    description: Takes care about Backup & Restore procedures in your Kubernetes cluster
+    digest: ed851ad3d55119bfa489f0dfac8dbe17e557273d24d8aef26d592066257ed794
+    name: backup-maker-controller
+    type: application
+    urls:
+    - https://riotkit-org.github.io/helm-of-revolution/backup-maker-controller-v0.1.2.tgz
+    version: v0.1.2
+  - apiVersion: v2
     appVersion: v0.1.1
     created: "2023-01-06T22:55:56.956533474Z"
     description: Takes care about Backup & Restore procedures in your Kubernetes cluster
@@ -411,4 +421,4 @@ entries:
     urls:
     - https://riotkit-org.github.io/helm-of-revolution/wordpress-hardened-v2.0.tgz
     version: v2.0
-generated: "2023-01-06T22:55:56.953546746Z"
+generated: "2023-01-07T22:00:06.91410919Z"
